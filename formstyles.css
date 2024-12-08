@@ -3,23 +3,32 @@
     src: url(./design/Norse-Bold-Font.otf);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
 }
 
 .container {
     display: flex;
+    height: 100vh;
 }
 
 .sidebar {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    background-image: url(./design/Green-Leaf-Plant-Close-Up.jpg);
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    height: 100vh ;
+    margin: 0%;
+    position: relative;
+}
+
+.sb-bg-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .sbLogo {
