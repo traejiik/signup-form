@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./design/Norse-Bold-Font.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sidebar {
+    position: relative;
+    width: 40%;
+}
+
+.sb-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
