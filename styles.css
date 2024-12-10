@@ -91,11 +91,16 @@ body {
 
 .bigText {
     font-weight: bold;
-    font-size: larger;
-    padding-top: 4rem;
+    font-size: x-large;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding-top: 4rem;
+}
+
+.phraseMain,
+.phraseMini {
+    margin-bottom: 2rem;
 }
 
 .middleContent {
