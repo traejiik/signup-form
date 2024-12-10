@@ -15,7 +15,7 @@ body {
 
 .container {
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     height: 100vh;
     width: clamp(715px, 100%, 1200px);
     background-color: #fff;
@@ -23,7 +23,7 @@ body {
 
 .sidebar {
     position: relative;
-    flex: 0 1 40%;
+    width: 40%;
 }
 
 .sb-bg-img {
@@ -34,17 +34,21 @@ body {
     z-index: 1;
 }
 
-.sbLogo {
+.sbLogo,
+.sbFooter {
     position: absolute;
     z-index: 2;
     width: 100%;
     color: white;
+}
+
+.sbLogo {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.75rem 0;
-    top: 25%;
+    top: 20%;
     font-size: 2rem;
 }
 
@@ -57,10 +61,6 @@ body {
 }
 
 .sbFooter {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    color: white;
     text-align: center;
     font-size: smaller;
     bottom: 1%;
