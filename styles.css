@@ -3,6 +3,10 @@
     src: url(./design/Norse-Bold-Font.otf);
 }
 
+:root {
+    --main-height: calc(100vh / 3);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -64,4 +68,17 @@ body {
     text-align: center;
     font-size: smaller;
     bottom: 1%;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.bigText,
+.middleContent,
+.bottomContent {
+    height: var(--main-height);
+    width: 100%;
 }
