@@ -1,6 +1,10 @@
 @font-face {
-    font-family: "Norse Bold";
+    font-family: "Norse-Bold";
     src: url(./design/Norse-Bold-Font.otf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./design/Roboto-Regular.ttf);
 }
 
 :root {
@@ -14,7 +18,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .container {
@@ -61,7 +65,7 @@ body {
 }
 
 .sbLogo > h1 {
-    font-family: "Norse Bold";
+    font-family: "Norse-Bold";
 }
 
 .sbFooter {
@@ -81,7 +85,7 @@ body {
 .bottomContent {
     height: var(--main-height);
     width: 100%;
-    padding: 2rem
+    padding: 2rem 2rem 2rem 3rem;
 }
 
 .bigText,
@@ -105,6 +109,13 @@ body {
 
 .middleContent {
     box-shadow: 3px 13px 25px 0px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bottomContent {
     display: flex;
     flex-direction: column;
 }
