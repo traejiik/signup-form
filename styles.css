@@ -15,6 +15,7 @@ body {
 
 .container {
     display: flex;
+    margin: 0 auto;
     height: 100vh;
     width: clamp(715px, 100%, 1200px);
     background-color: #fff;
