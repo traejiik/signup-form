@@ -19,15 +19,15 @@ body {
 
 .container {
     display: flex;
-    margin: 0;
+    margin: 0 auto;
     height: 100vh;
-    width: clamp(715px, 100%, 1200px);
+    width: 100%;
     background-color: #fff;
 }
 
 .sidebar {
     position: relative;
-    width: 40%;
+    flex: 0 0 40%;
 }
 
 .sb-bg-img {
@@ -73,7 +73,7 @@ body {
 .mainContent {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    flex: 1;
 }
 
 .bigText,
@@ -87,6 +87,15 @@ body {
 .bigText,
 .bottomContent {
     background-color: whitesmoke;
+}
+
+.bigText {
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .middleContent {
