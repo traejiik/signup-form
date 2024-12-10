@@ -111,7 +111,9 @@ body {
     flex-direction: column;
 }
 
-
+.formTitle {
+    margin-bottom: 0.6rem;
+}
 
 .bottomContent {
     display: flex;
