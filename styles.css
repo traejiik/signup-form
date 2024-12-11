@@ -159,6 +159,11 @@ body {
     box-shadow: 1px 1px 8px -3px rgb(64, 64, 64);
 }
 
+.formInput:invalid {
+    border: 0.04rem solid red;
+    border: 1px 1px 8px -3px rgb(64, 64, 64);
+}
+
 .bottomContent {
     display: flex;
     flex-direction: column;
