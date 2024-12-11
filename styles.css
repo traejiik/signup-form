@@ -98,6 +98,7 @@ body {
     flex-direction: column;
     justify-content: end;
     padding-top: 4rem;
+    letter-spacing: 0.05rem;
 }
 
 .phraseMain,
@@ -131,6 +132,24 @@ body {
 .formField {
     display: flex;
     flex-direction: column;
+}
+
+.formLabel {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(94, 93, 93);
+    letter-spacing: 0.075rem;
+    margin-bottom: 0.2rem;
+}
+
+.formInput {
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border: 0.04rem solid #d6dcd8;
 }
 
 .bottomContent {
