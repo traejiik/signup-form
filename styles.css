@@ -92,7 +92,7 @@ body {
 }
 
 .bigText {
-    font-weight: bold;
+    font-weight: 580;
     font-size: x-large;
     display: flex;
     flex-direction: column;
