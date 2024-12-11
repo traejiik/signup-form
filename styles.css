@@ -115,6 +115,13 @@ body {
     margin-bottom: 0.6rem;
 }
 
+.inputContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
 .bottomContent {
     display: flex;
     flex-direction: column;
