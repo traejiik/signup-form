@@ -153,6 +153,12 @@ body {
     border: 0.04rem solid #d6dcd8;
 }
 
+.formInput:focus,
+.formInput:active {
+    border: 0.04rem solid royalblue;
+    box-shadow: 1px 1px 8px -3px rgb(64, 64, 64);
+}
+
 .bottomContent {
     display: flex;
     flex-direction: column;
