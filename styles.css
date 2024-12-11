@@ -100,8 +100,8 @@ body {
 }
 
 .bigText {
-    font-weight: 580;
-    font-size: x-large;
+    font-weight: bold;
+    font-size: 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -121,7 +121,7 @@ body {
 }
 
 .formTitle {
-    font-weight: 580;
+    font-weight: 600;
     margin-bottom: 0.6rem;
 }
 
