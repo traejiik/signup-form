@@ -128,6 +128,11 @@ body {
     gap: 15%;
 }
 
+.formField {
+    display: flex;
+    flex-direction: column;
+}
+
 .bottomContent {
     display: flex;
     flex-direction: column;
