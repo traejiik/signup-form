@@ -39,31 +39,31 @@
                         <div class="formRow">
                             <div class="formField">
                                 <label class="formLabel" for="firstName">First Name</label>
-                                <input class="formInput" type="text" id="firstName">
+                                <input class="formInput" type="text" id="firstName" required minlength="2" maxlength="25">
                             </div>
                             <div class="formField">
                                 <label class="formLabel" for="lastName">Last Name</label>
-                                <input class="formInput" type="text" id="lastName">
+                                <input class="formInput" type="text" id="lastName" required minlength="2" maxlength="25">
                             </div>
                         </div>
                         <div class="formRow">
                             <div class="formField">
                                 <label class="formLabel" for="usrEmail">Email Address</label>
-                                <input class="formInput" type="email" id="usrEmail">
+                                <input class="formInput" type="email" id="usrEmail" required>
                             </div>
                             <div class="formField">
                                 <label class="formLabel" for="usrNum">Phone Number</label>
-                                <input class="formInput" type="number" id="usrNum">
+                                <input class="formInput" type="tel" id="usrNum">
                             </div>
                         </div>
                         <div class="formRow">
                             <div class="formField">
                                 <label class="formLabel" for="passIn">Password</label>
-                                <input class="formInput" type="text" id="passIn">
+                                <input class="formInput" type="password" id="passIn" required minlength="6" maxlength="12">
                             </div>
                             <div class="formField">
                                 <label class="formLabel" for="confPass">Confirm Password</label>
-                                <input class="formInput" type="text" id="confPass">
+                                <input class="formInput" type="password" id="confPass" required minlength="6" maxlength="12">
                             </div>
                         </div>
                     </div>
