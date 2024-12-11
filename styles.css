@@ -7,6 +7,7 @@
 
 :root {
     --main-height: calc(100vh / 3);
+    --input-shadow: 1px 1px 8px -3px rgb(64, 64, 64);
 }
 
 * {
@@ -60,6 +61,7 @@ body {
 
 .logo {
     height: 7rem;
+    margin-right: 1rem;
 }
 
 .sbLogo > h1 {
@@ -70,6 +72,12 @@ body {
     text-align: center;
     font-size: smaller;
     bottom: 1%;
+}
+
+.sbFooter a,
+.sbFooter a:visited {
+    color: white;
+    text-decoration: underline;
 }
 
 .mainContent {
@@ -113,6 +121,7 @@ body {
 }
 
 .formTitle {
+    font-weight: 580;
     margin-bottom: 0.6rem;
 }
 
@@ -156,12 +165,12 @@ body {
 .formInput:focus,
 .formInput:active {
     border: 0.04rem solid royalblue;
-    box-shadow: 1px 1px 8px -3px rgb(64, 64, 64);
+    box-shadow: var(--input-shadow)
 }
 
 .formInput:invalid {
     border: 0.04rem solid red;
-    border: 1px 1px 8px -3px rgb(64, 64, 64);
+    box-shadow: var(--input-shadow);
 }
 
 .bottomContent {
