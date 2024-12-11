@@ -168,7 +168,7 @@ body {
     box-shadow: var(--input-shadow)
 }
 
-.formInput:invalid {
+.formInput:user-invalid {
     border: 0.04rem solid red;
     box-shadow: var(--input-shadow);
 }
